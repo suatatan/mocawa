@@ -38,7 +38,7 @@ public class hataekrani extends javax.swing.JFrame {
         setTitle("HATA EKRANI");
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.LINE_AXIS));
 
-        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 0));
 
         LB_HATAOLUSTU.setText("PROGRAM AÇILIRKEN BİR HATAYLA KARŞILAŞTI,LÜTFEN 5 DK.SONRA PROGRAMI TEKRAR AÇINIZ.");
 
@@ -90,7 +90,7 @@ public class hataekrani extends javax.swing.JFrame {
                 .addComponent(LB_HATA_BILDIRIM1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(LB_HATA_BILDIRIM2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(HATE_EKRANI_TAMAM)
                 .addContainerGap())
         );
